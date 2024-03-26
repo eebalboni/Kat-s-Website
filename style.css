@@ -1,0 +1,95 @@
+/*Emily Balboni CSS file 
+Professor Ruby 
+SER 340
+Practice 5
+styling for index*/
+body {
+    background: white;
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+header{
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.header-image{
+    width: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 100px;
+    margin: 25px;
+}
+
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+head{
+    background: gray;
+    color: black;
+}
+
+
+.grid{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*change color of the link when i hover*/
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.container{
+    width: 100%;
+    margin-top: 20px;
+    display:flex;
+}
+
+
+.floatRow{
+    float: left,inline;
+}
+
+
+/*setting up background colors of text in second row*/
+.block1{
+    background-color:#0468a7;
+    color: white;
+    padding: 10px;
+    width:360px;
+    text-align: left;
+    float: right;
+}
+
+.block2{
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    width:360px;
+    text-align: left;
+    float: right;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #0468a7;
+    color: white;
+    padding:10px;
+    margin-top: 40px;
+}
+
+/*spacing out the images*/
+.col-4{
+    padding: 10px;
+}
+
+
